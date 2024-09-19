@@ -19,3 +19,6 @@ btn_speedtest = ttk.Button(
     Frame_buttons, text="На скорость", command=open)
 btn_speedtest.pack()
 
+
+
+ROOT.mainloop()
