@@ -11,3 +11,6 @@ ROOT.geometry("400x300")  # Задаем размеры окна
 
 MAIN_menu = ttk.Frame(ROOT)
 MAIN_menu.pack()
+
+Frame_buttons = ttk.Frame(MAIN_menu)
+Frame_buttons.pack()
