@@ -14,3 +14,8 @@ MAIN_menu.pack()
 
 Frame_buttons = ttk.Frame(MAIN_menu)
 Frame_buttons.pack()
+
+btn_speedtest = ttk.Button(
+    Frame_buttons, text="На скорость", command=open)
+btn_speedtest.pack()
+
